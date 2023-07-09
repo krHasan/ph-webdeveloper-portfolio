@@ -90,6 +90,10 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+main section {
+    margin-top: 130px;
+}
+
 
 /* about section styles */
 .about {
@@ -105,6 +109,28 @@ main {
 .about-info {
     text-align: center;
 }
+
+/* skills related styles */
 #what-i-do-description {
     padding: 30px 150px;
+}
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+.skill-description {
+    color: #757575;
+}
+
+/* Resume section styles */
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
